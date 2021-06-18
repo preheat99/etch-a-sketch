@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsalmon;
+}
+.heading {
+    font-size: x-large;
+    font-weight: bolder;
+    color: maroon;
+}
+.clear-button {
+    margin: 30px;
+}
+.clear-button button {
+    cursor: pointer;
+    padding: 10px 0px 10px 0px;
+    width: 200px;
+    background-color: steelblue;
+    border: none;
+    color: snow;
+    font-size: medium;
+    font-weight: bolder;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+.clear-button button:hover {
+    transform: scale(1.1);
+}
